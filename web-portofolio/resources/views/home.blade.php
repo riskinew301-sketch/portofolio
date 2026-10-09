@@ -10,7 +10,7 @@
             Digital <br /> <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">Craftsman</span>
         </h1>
         <p class="text-gray-400 max-w-xl mx-auto text-lg md:text-xl font-light mb-10">
-            Fusing raw code with bold aesthetics. Building web experiences that refuse to be ignored.
+            Berjalan Tak Seperti Rencana Adalah Jalan Yang Sudah Biasa.
         </p>
         <a href="{{ route('projects') }}" class="brutal-border bg-dark text-white px-8 py-4 font-bold uppercase tracking-widest text-sm hover:text-neon">
             Explore Archives
