@@ -3,7 +3,7 @@ import { SiteContent } from "@/types";
 export const siteContent: SiteContent = {
   profile: {
     name: "Rizqy Naufal Pradana",
-    fullNameWithTitle: "Rizqy Naufal Pradana, S.Kom",
+    fullNameWithTitle: "Rizqy Naufal Pradana",
     role: "Frontend Developer & Network Engineering Enthusiast",
     headline: "Frontend Developer | Google Student Ambassador '26",
     bio: "Memulai perjalanan teknis dari dunia infrastruktur jaringan dan Mikrotik RouterOS semasa SMK TKJ, kini bertransformasi menjadi Software & Frontend Developer melalui studi Informatika di UMBY dengan penguasaan PL/SQL, Java, hingga ekosistem modern React dan Next.js. Memadukan presisi arsitektur jaringan dengan estetika antarmuka berkinerja tinggi, terinspirasi oleh streetwear, analog photography, dan kultur indie rock.",
@@ -91,30 +91,30 @@ export const siteContent: SiteContent = {
       ],
       collaborators: [
         {
-          name: "Rizqy Naufal Pradana, S.Kom",
+          name: "Rizqy Naufal Pradana",
           role: "Lead Frontend & Architecture",
         },
       ],
     },
     {
-      slug: "foleygen",
-      title: "Foleygen",
-      tagline: "Platform generative AI untuk sintesis efek audio latar belakang orisinal dari deskripsi teks.",
-      description: "Aplikasi berbasis AI yang memungkinkan kreator menghasilkan sound effects (foley) berkualitas sinematik hanya dari prompt teks secara instan.",
-      fullDescription: "Foleygen memanfaatkan model pemrosesan sinyal saraf untuk mentranslasikan deskripsi bahasa alami menjadi audio foley sinematik berkualitas tinggi. Dirancang dengan antarmuka yang sangat responsif, visualisasi bentuk gelombang (waveform) interaktif, dan kontrol parameter granular untuk desainer suara.",
-      category: "Generative AI / Audio Tech",
-      techStack: ["Next.js 16", "TypeScript", "Tailwind CSS", "Web Audio API", "Python FastAPI", "PyTorch"],
-      githubUrl: "https://github.com/rizqynaufal/foleygen",
-      liveUrl: "https://foleygen-ai.vercel.app",
+      slug: "pariwisata-diy",
+      title: "Pariwisata DIY",
+      tagline: "Platform kurasi dan eksplorasi destinasi wisata serta hidden gems Daerah Istimewa Yogyakarta.",
+      description: "Platform web pariwisata interaktif yang membantu wisatawan mengeksplorasi destinasi ikonik hingga hidden gems di seluruh penjuru Yogyakarta.",
+      fullDescription: "Pariwisata DIY (JogjaGems) merupakan platform web pariwisata yang dirancang untuk mempermudah wisatawan mengeksplorasi ragam destinasi di Daerah Istimewa Yogyakarta. Mulai dari wisata sejarah, pantai, hingga hidden gems lokal, dilengkapi dengan direktori interaktif, integrasi peta lokasi, dan perencanaan itinerary perjalanan.",
+      category: "Tourism / Web App",
+      techStack: ["Next.js", "TypeScript", "Tailwind CSS", "REST API", "Maps API"],
+      githubUrl: "https://github.com/rizqynaufal/pariwisata-diy",
+      liveUrl: "https://jogjagems.onrender.com/",
       featured: true,
-      coverImage: "/projects/foleygen-cover.png",
+      coverImage: "/projects/pariwisata-diy-cover.png",
       screenshots: [
-        "/projects/foleygen-cover.png",
+        "/projects/pariwisata-diy-cover.png",
       ],
       collaborators: [
         {
-          name: "Rizqy Naufal Pradana, S.Kom",
-          role: "Frontend Engineer & AI Integration",
+          name: "Rizqy Naufal Pradana",
+          role: "Frontend Developer & UI/UX",
         },
       ],
     },
@@ -135,7 +135,7 @@ export const siteContent: SiteContent = {
       ],
       collaborators: [
         {
-          name: "Rizqy Naufal Pradana, S.Kom",
+          name: "Rizqy Naufal Pradana",
           role: "Frontend Lead Developer",
         },
         {
@@ -170,7 +170,7 @@ export const siteContent: SiteContent = {
       ],
       collaborators: [
         {
-          name: "Rizqy Naufal Pradana, S.Kom",
+          name: "Rizqy Naufal Pradana",
           role: "Fullstack Developer",
         },
       ],

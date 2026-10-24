@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD)
 
 **Project Name:** Interactive Personal Portfolio
-**Developer:** Rizqy Naufal Pradana, S.Kom
+**Developer:** Rizqy Naufal Pradana
 **Role:** Frontend Developer & Network Engineering Enthusiast
 **Status:** In Development (Q3 2026)
 

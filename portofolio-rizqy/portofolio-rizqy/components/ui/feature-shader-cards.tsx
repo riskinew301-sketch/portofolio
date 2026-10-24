@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Warp } from "@paper-design/shaders-react";
 import {
   School,
-  AudioLines,
+  Compass,
   Calculator,
   BrainCircuit,
   ArrowUpRight,
@@ -34,9 +34,9 @@ const shaderConfigs: Record<
     swirl: 0.75,
     shape: "checks",
   },
-  foleygen: {
+  "pariwisata-diy": {
     colors: ["#050d02", "#33ff33", "#071a03", "#00e600"],
-    icon: <AudioLines className="w-6 h-6" />,
+    icon: <Compass className="w-6 h-6" />,
     speed: 2.0,
     distortion: 0.3,
     swirl: 0.9,

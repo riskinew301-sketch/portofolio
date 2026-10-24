@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  overflow-x: hidden; /* Cegah horizontal scroll di level html — aman untuk Lenis */
+}
+
 :root {
   --background: #09090b; /* zinc-950 */
   --foreground: #f4f4f5; /* zinc-100 */
@@ -46,7 +50,6 @@ body {
   background-color: #09090b;
   color: #f4f4f5;
   font-family: var(--font-sans);
-  overflow-x: hidden;
 }
 
 /* Custom Grainy / Noise Overlay for Analog & Streetwear Vibe */
@@ -82,3 +85,13 @@ body {
 .sharp-card {
   border-radius: 0px !important;
 }
+
+/* Hide scrollbar for carousel containers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

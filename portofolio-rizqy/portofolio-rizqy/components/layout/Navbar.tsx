@@ -3,20 +3,21 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Terminal } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { siteContent } from "@/data/content";
 import { Avatar } from "@/components/ui/Avatar";
+import { SlideTabs } from "@/components/ui/slide-tabs";
+
+const navLinks = [
+  { name: "HOME", href: "/" },
+  { name: "PROJECTS", href: "/projects" },
+  { name: "JOURNAL", href: "/journal" },
+  { name: "CONTACT", href: "/contact" },
+];
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const navLinks = [
-    { name: "HOME", href: "/" },
-    { name: "PROJECTS", href: "/projects" },
-    { name: "JOURNAL", href: "/journal" },
-    { name: "CONTACT", href: "/contact" },
-  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-zinc-950/90 backdrop-blur-md">
@@ -42,37 +43,10 @@ export const Navbar: React.FC = () => {
           </div>
         </Link>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => {
-            const isActive = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href));
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`font-mono text-xs uppercase tracking-widest transition-colors relative py-1 ${
-                  isActive
-                    ? "text-neon font-bold"
-                    : "text-zinc-400 hover:text-zinc-100"
-                }`}
-              >
-                {link.name}
-                {isActive && (
-                  <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-neon" />
-                )}
-              </Link>
-            );
-          })}
+        {/* Desktop Navigation — SlideTabs */}
+        <nav className="hidden md:flex items-center">
+          <SlideTabs tabs={navLinks} />
         </nav>
-
-        {/* Status Indicator */}
-        <div className="hidden lg:flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-800">
-          <Terminal className="w-3.5 h-3.5 text-neon" />
-          <span className="font-mono text-[11px] text-zinc-300">
-            RIZQY
-          </span>
-          <span className="w-1.5 h-1.5 bg-neon animate-pulse" />
-        </div>
 
         {/* Mobile Menu Toggle */}
         <button

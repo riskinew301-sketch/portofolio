@@ -1,7 +1,7 @@
 import { HeroSection } from "@/components/sections/HeroSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { MilestonesSection } from "@/components/sections/MilestonesSection";
-import { FeaturesCards } from "@/components/ui/feature-shader-cards";
+import { FeaturedProjectsSection } from "@/components/sections/FeaturedProjectsSection";
 
 export default function HomePage() {
   return (
@@ -9,7 +9,7 @@ export default function HomePage() {
       <HeroSection />
       <AboutSection />
       <MilestonesSection />
-      <FeaturesCards />
+      <FeaturedProjectsSection />
     </div>
   );
 }

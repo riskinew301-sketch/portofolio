@@ -25,7 +25,7 @@
 - [ ] Buat dan isi file `@/data/content.ts` dengan data JSON yang mencakup:
   - Personal Information & GSA 2026 details.
   - Project Data (ESL, Foleygen, Laba Pintar, BK Service).
-  - Team Collaborators Data (termasuk gelar S.Kom dan S.Pd).
+  - Team Collaborators Data.
 
 ### Phase 3: Core Layout & External Integration
 - [ ] **Navbar & Footer:** Bangun navigasi persisten. Implementasikan fetcher API Spotify di Footer. Jika tidak ada status *Currently Playing*, render default state list band (FSTVLST, The Adams).
